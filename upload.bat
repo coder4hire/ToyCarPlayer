@@ -1,0 +1,1 @@
+avrdude -Cavrdude.conf -v -pattiny13 -cstk500v1 -PCOM6 -b19200 -Uflash:w:Release\CarPlayerTiny.hex:i 
